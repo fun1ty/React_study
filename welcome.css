@@ -1,0 +1,187 @@
+@import url(reset.css);
+
+body{
+    margin: 0;
+}
+.full_div{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: rgb(235, 235, 239);
+    margin: 0;
+}
+
+.inner_div{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+.plask_tit{
+    font-family: Ubuntu;
+    font-weight: 700;
+    position: absolute;
+    color: rgb(33, 86, 240);
+    font-size:100px;
+    line-height: 74px;
+    letter-spacing: 0px;
+    margin: auto;
+    left: 50vw;
+    right: 50vh;
+    top: 194px;
+    bottom: 647px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.place_ask{
+    color: rgb(41, 117, 216);
+    font-family: Noto Sans;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0px;
+    margin-top: 50%;
+    top: 281px;
+    bottom: 607px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_main{
+    color: rgb(41, 117, 216);
+    font-family: NanumGothic;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    margin-top: 5%;
+    top: 337px;
+    bottom: 557px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_sub{
+    color: rgb(41, 117, 216);
+    font-family: Noto Sans;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 5%;
+    top: 374px;
+    bottom: 491px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Noto Sans;
+}
+
+.offDisplay_btn{
+    width: 300px;
+    height: 80px;
+    top: 601px;
+    background: rgb(33, 86, 240);
+    border-radius:25px;
+    color: rgb(255, 255, 255);
+    font-family: NanumGothic;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 30%;                                                                                                                                                                                                                                                                                                                                                          
+}
+
+@media screen and (min-device-width :320px) and (max-device-width:480px){
+    .plask_tit{
+        font-family: Ubuntu;
+        font-weight: 700;
+        position: absolute;
+        color: rgb(33, 86, 240);
+        font-size:150px;
+        line-height: 74px;
+        letter-spacing: 0px;
+        margin: auto;
+        left: 50vw;
+        right: 50vh;
+        top: 194px;
+        bottom: 647px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50%;
+    }
+    
+    .place_ask{
+        color: rgb(41, 117, 216);
+        font-family: Noto Sans;
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0px;
+        margin-top: 80%;
+        top: 281px;
+        bottom: 607px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .info_main{
+        color: rgb(41, 117, 216);
+        font-family: NanumGothic;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0px;
+        margin-top: 10%;
+        top: 337px;
+        bottom: 557px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .info_sub{
+        color: rgb(41, 117, 216);
+        font-family: Noto Sans;
+        font-size: 25px;
+        font-weight: 400;
+        letter-spacing: 0px;
+        text-align: center;
+        margin-top: 5%;
+        top: 374px;
+        bottom: 491px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Noto Sans;
+    }
+    
+    .offDisplay_btn{
+        width: 450px;
+        height: 130px;
+        top: 601px;
+        background: rgb(33, 86, 240);
+        border-radius:60px;
+        color: rgb(255, 255, 255);
+        font-family: NanumGothic;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        margin-top: 40%;                                                                                                                                                                                                                                                                                                                                                          
+    }
+}
